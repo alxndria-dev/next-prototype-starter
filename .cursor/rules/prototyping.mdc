@@ -1,0 +1,16 @@
+---
+description: Rules for rapid prototype work
+alwaysApply: true
+---
+
+This repository is for high-fidelity product prototypes and usability tests.
+
+- Prioritise testable user flows over production architecture.
+- Use existing shadcn components before creating new primitives.
+- Build responsive, accessible interfaces with keyboard support and visible focus states.
+- Keep prototype state local or in localStorage unless explicitly asked otherwise.
+- Put mock content in src/data; do not invent a backend.
+- Include realistic empty, loading, success, and error states where relevant.
+- Avoid adding dependencies without explaining why.
+- Do not refactor unrelated code while implementing a test.
+- Before considering a flow complete, verify the primary task can be completed end-to-end.
