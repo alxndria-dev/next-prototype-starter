@@ -2,6 +2,13 @@
 
 A small Next.js repo for high-fidelity product prototypes and usability tests. Copy it, build the flow you need to learn from, then discard the trial.
 
+## Template version
+
+Current baseline: `v0.1.0`
+
+Create new prototypes from the GitHub template’s `main` branch.
+Use release tags to identify, compare, or restore known-good starter versions.
+
 ## Run
 
 Requires Node.js 20.9 or newer and pnpm.
